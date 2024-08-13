@@ -4,30 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Page 3</title>
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <form class="form">
-        <label>
+        <div class="delay-container">
+        <label class="label-delay">
           Delay (ms)
-          <input type="number" name="delay" required />
+          <input class="input-delay" type="number" name="delay" required />
         </label>
-      
-        <fieldset>
+      </div>
+
+        <fieldset class="fieldset">
           <legend>State</legend>
-          <label>
-            <input type="radio" name="state" value="fulfilled" required />
+          <div class="radio-container">
+          <label class="radio-label">
+            <input class="radio-input" type="radio" name="state" value="fulfilled" required />
             Fulfilled
           </label>
-          <label>
-            <input type="radio" name="state" value="rejected" required />
+          <label class="radio-label">
+            <input class="radio-input" type="radio" name="state" value="rejected" required />
             Rejected
           </label>
+        </div>
         </fieldset>
       
-        <button type="submit">Create notification</button>
+        <button class="btn-delay" type="submit">Create notification</button>
       </form>
       
     </section>
