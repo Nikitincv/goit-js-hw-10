@@ -210,4 +210,12 @@ letter-spacing: 0.04em;
 color: #fff;
 margin-left: 156px;
 margin-top: 24px;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+
+}
+
+.btn-delay:hover {
+  background-color:  #6c8cff;
 }
